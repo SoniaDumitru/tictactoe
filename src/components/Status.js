@@ -19,6 +19,7 @@ class Status extends React.Component {
   }
 
   render() {
+    console.log(this.props.winner);
     return(
       <span>
       {this.renderHtml()}
